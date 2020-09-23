@@ -1,0 +1,22 @@
+ÿ#Hi, this is an example of my new cool control - CoolForm!
+
+When the form is loaded, the mouse it trapped inside the window. This is done instead of using 
+"Form.show vbModal", in order to force the user to close the form before moving on in the 
+application.
+
+PLEASE NOTE:
+You must remove the remark from the line "Call MouseCapture" inside the 
+event "UserControl_Show", before the compilation. DO NOT do this while you are coding, otherwise 
+the mouse will be trapped and you will be stucked!
+
+MORE SPECIAL FEATURES:
+- It traps the mouse when it´s open
+- It releases the trapped mouse when it´s minimized (green button, or dubbelclick on captiontext)
+- It stays on top when it´s minimized (green button, or dubbelclick on captiontext)
+- It does not act like the common VB-forms
+
+I wrote this ActiveX, because I needed a nice form for fixed forms, and hopfully you could use it to 
+where you might need it. Microsoft´s standard forms inside VB looks so boring now after a couple 
+of years :-)
+
+Best regards, Jim Williams (jim@admax.se)
